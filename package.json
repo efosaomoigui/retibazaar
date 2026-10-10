@@ -1,0 +1,17 @@
+{
+  "name": "retibazaar-production",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "node -e \"console.log('Static Vercel build already exists in dist')\"",
+    "start": "node start.mjs"
+  },
+  "dependencies": {
+    "express": "4.22.2",
+    "dotenv": "17.4.2"
+  }
+}
